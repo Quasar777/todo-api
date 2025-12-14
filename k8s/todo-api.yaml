@@ -16,8 +16,8 @@ spec:
     spec:
       containers:
         - name: todo-api
-          image: todo-api:local
-          imagePullPolicy: IfNotPresent
+          image: tsaloy/todo-api:latest
+          imagePullPolicy: Always
           ports:
             - containerPort: 8080
           env:
